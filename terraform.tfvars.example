@@ -1,0 +1,11 @@
+location            = "eastus"
+resource_group_name = "rg-aumlab"
+admin_username      = "labadmin"
+allowed_rdp_ip      = "YOUR_PUBLIC_IP/32"   # find at whatismyip.com — format: 1.2.3.4/32
+domain_name         = "aumlab.local"
+domain_netbios      = "AUMLAB"
+ 
+# admin_password is NOT set here:
+#   PowerShell: $env:TF_VAR_admin_password = "YourPassword123!"
+#   Bash:       export TF_VAR_admin_password="YourPassword123!"
+# Min 12 chars, upper + lower + number + symbol.

@@ -1,0 +1,9 @@
+terraform.tfvars
+*.tfvars
+!terraform.tfvars.example
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+.terraform/
+*.tfplan
+aum-compliance-report*.json
